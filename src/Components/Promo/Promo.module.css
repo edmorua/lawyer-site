@@ -1,0 +1,16 @@
+.PromoContainer{
+  width: 100%;
+  background-color: black;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.PromoContainer p {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
