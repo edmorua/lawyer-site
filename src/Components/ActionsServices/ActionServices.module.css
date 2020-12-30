@@ -42,3 +42,25 @@
 .Button:hover {
   background-color: rgb(56, 56, 56);
 }
+
+
+@media(max-width: 700px) {
+  .ActionServicesContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .ActionItemContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ItemContainer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
