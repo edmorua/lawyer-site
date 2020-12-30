@@ -43,7 +43,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie1}
-                        altImage="Service1"
+                        altImage="Clients1"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -51,7 +51,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie2}
-                        altImage="Service1"
+                        altImage="Clients2"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -59,7 +59,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie3}
-                        altImage="Service1"
+                        altImage="Clients3"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -67,7 +67,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie4}
-                        altImage="Service1"
+                        altImage="Clients4"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -77,7 +77,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie5}
-                        altImage="Service1"
+                        altImage="Clients5"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -85,7 +85,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie6}
-                        altImage="Service1"
+                        altImage="Clients6"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -93,7 +93,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie7}
-                        altImage="Service1"
+                        altImage="Clients7"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -101,7 +101,7 @@ const Clients = () => {
                 <div className={style.ItemContainer}>
                     <ClientsItem 
                         image={clie8}
-                        altImage="Service1"
+                        altImage="Clients8"
                         text={'Industria de Alimentos y Conservas'}
                     />
                 </div>
@@ -111,3 +111,4 @@ const Clients = () => {
 }
 
 export default Clients
+
