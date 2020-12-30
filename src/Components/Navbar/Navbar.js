@@ -1,7 +1,7 @@
 //rafce
 import React from 'react';
 import { Nav, NavLink, Bars} from './NavbarElements';
-import Logo from './Images/logo.jpg';
+import Logo from './Images/logo1.png';
 
 
 
