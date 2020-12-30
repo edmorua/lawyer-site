@@ -4,6 +4,10 @@ import Hero from '../Hero/Hero'
 import Navbar from '../Navbar/Navbar'
 import Promo from '../Promo/Promo'
 import Services from '../Services/Services'
+import Clients from '../Clients/Clients'
+import Contact from '../ContactUs/Contact'
+
+
 import style from './Home.module.css'
 
 /**
@@ -17,6 +21,8 @@ const Home = () => {
       <Promo />
       <Services />
       <ActionServices />
+      <Clients />
+      <Contact />
     </div>
   )
 }

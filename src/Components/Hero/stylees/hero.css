@@ -189,15 +189,11 @@
   }
   
   @-webkit-keyframes zoom-out {
-    10% {
-      width: 100%;
-    }
+    from {width: 100%;}
   }
   
   @keyframes zoom-out {
-    10% {
-      width: 100%;
-    }
+    from {width: 100%;}
   }
   
   @-webkit-keyframes slider-one {
