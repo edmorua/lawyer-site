@@ -32,7 +32,7 @@ const ClientsItem = ({
 
 const Clients = () => {
     return (
-        <div>
+        <div className={style.ClientsMainContainer}>
             <div className={style.ClientsTextContainer}>
                 <h2>CLIENTES</h2>
                 <p>Nuestros clientes nos han brindado su confianza, dando soluciones 
