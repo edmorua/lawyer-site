@@ -2,22 +2,26 @@ import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './stylees/hero.css';
-import Image1 from './Images/image1-1.jpeg';
-import Image2 from './Images/image2.jpeg';
-import Image3 from './Images/image3.jpg';
-import Image4 from './Images/image4.jpg';
+import Image1 from './Images/image5.jpg';
+import Image2 from './Images/image6.jpg';
+import Image3 from './Images/image7.jpg';
+import Image4 from './Images/image9.jpg';
 
 class Hero extends React.Component {
-    
+
     render() {
+                
         return (
-            <div>
+            
+            <div className="HeroContainer">
                 <Carousel 
                     showArrows={false} 
                     infiniteLoop 
                     autoPlay interval={3000} 
                     showThumbs={false}
                     showIndicators={false}
+                    stopOnHover={false}
+                    transitionTime={0}
                 >
                     <div class="slider-one">
                         <div class="slider-one-image">
@@ -58,7 +62,9 @@ class Hero extends React.Component {
                 </Carousel>
             </div>
         )
+        
     };
+
 }
 
 export default Hero;

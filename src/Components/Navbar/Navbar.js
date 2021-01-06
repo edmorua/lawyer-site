@@ -1,21 +1,24 @@
 //rafce
 import React from 'react';
-import { Nav, NavLink, Bars} from './NavbarElements';
-import Logo from './Images/logo1.png';
+import Logo from './Images/logo.png';
+import { NavLink as Link } from 'react-router-dom';
+import style from './Navbar.module.css'
 
 
 
     const Navbar = () => {
     return (
-        <>
-            <Nav>
-                <NavLink to="/">
+        <div className={style.BarContainer}>      
+            <div className={style.NavBar}>
+                <Link 
+                    to="/"
+                    className={style.NavLink}
+                >
                 <img src={Logo} alt='logo' /> 
-                </NavLink>
-                <Bars />
-                
-            </Nav>   
-        </>
+                </Link>
+            </div>
+                   
+        </div>
     )
 }
 
