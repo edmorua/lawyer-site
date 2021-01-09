@@ -64,6 +64,7 @@ class Contact extends Component {
                     </div>
                     <div class="right">
                         <h2>Contactanos</h2>
+                        <div class="your-class">
                         <input
                             id="name" 
                             type="text" 
@@ -86,6 +87,7 @@ class Contact extends Component {
                             class="field" 
                             placeholder="Teléfono"
                         />
+                    </div>
                         <textarea 
                             class="field area" 
                             placeholder="Mensaje">    
