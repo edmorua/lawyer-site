@@ -1,0 +1,88 @@
+.Mainfooter {
+    color: white;
+    background-color: #000;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.Box{
+    height: 200px;
+    color: white;
+    border: 2px;
+    position: relative;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.Rightp{
+    text-align: right;
+
+}
+
+.Lefthp{
+    text-align: left;
+}
+
+br{
+    display: block;
+    margin: 2px 0;
+}
+
+@media(min-width:701px) and (max-width: 800px) {
+    .Box{
+        height: 100px;
+        color: white;
+        position: relative;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+    }
+    
+    .Rightp{
+        text-align: center;
+    }
+    
+    .Lefthp{
+        text-align: left;
+    }
+    
+    br{
+        display: block;
+        margin: 2px 0;
+    }
+
+}
+  
+@media(max-width: 700px) {
+    .Box{
+        height: 100px;
+        color: white;
+        position: relative;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+    }
+    
+    .Rightp{
+        text-align: center;
+    }
+    
+    .Lefthp{
+        text-align: left;
+    }
+    
+    br{
+        display: block;
+        margin: 2px 0;
+    }
+}
