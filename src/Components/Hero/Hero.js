@@ -21,6 +21,7 @@ class Hero extends React.Component {
                     showThumbs={false}
                     showIndicators={false}
                     stopOnHover={false}
+                    showStatus={false}
                     transitionTime={0}
                 >
                     <div class="slider-one">
@@ -81,7 +82,7 @@ class Hero extends React.Component {
                         <div class="slider-four-image">
                             <img src={Image4} />
                             <div class="slider-text">
-                                <h3>En nuestra firma mantenemos</h3>
+                                <h3>EN NUESTRA FIRMA MANTENEMOS</h3>
                                 <h1>Los mas altos estándares</h1>
                                 <div text-ad>
                                     <p>
