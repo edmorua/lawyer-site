@@ -1,0 +1,51 @@
+img.Logo{
+    width: 50%;
+    width: 345px; height: 119px;
+}
+
+.ImageCenter{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.SubtitleContainer {
+    width: 56%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 20px;
+}
+    
+.SubtitleContainer p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.TextPresenContainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+    
+.TextPresenContainer p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+@media(min-width: 700px) {
+    .TextPresenContainer {
+        width: 56%;
+        margin-left: 22%;
+        margin-right: 22%;
+      }
+}
